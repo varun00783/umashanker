@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Uma Shanker Singh | Portfolio</title>
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-900 text-white">
+
+  <!-- Navbar -->
+  <nav class="fixed w-full bg-gray-800 shadow-lg z-50">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+      <h1 class="text-xl font-bold">Uma Singh</h1>
+
+      <!-- Hamburger -->
+      <button id="menu-btn" class="block md:hidden text-white text-2xl">
+        ☰
+      </button>
+
+      <!-- Menu -->
+      <ul id="menu" class="hidden md:flex space-x-6">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Mobile Menu -->
+    <ul id="mobile-menu" class="hidden flex-col bg-gray-800 text-center py-4">
+      <li class="py-2"><a href="#home">Home</a></li>
+      <li class="py-2"><a href="#skills">Skills</a></li>
+      <li class="py-2"><a href="#education">Education</a></li>
+      <li class="py-2"><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="h-screen flex flex-col justify-center items-center text-center">
+    <h1 class="text-4xl md:text-6xl font-bold mb-4">
+      Hi, I'm Uma Shanker Singh
+    </h1>
+    <h2 class="text-xl md:text-2xl text-blue-400">
+      <span id="typing"></span>
+    </h2>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="py-16 px-6">
+    <h2 class="text-3xl font-bold text-center mb-10">Skills</h2>
+
+    <div class="grid md:grid-cols-3 gap-6 text-center">
+      <div class="p-6 bg-gray-800 rounded-xl shadow-lg">
+        <h3 class="text-xl font-semibold mb-2">Programming</h3>
+        <p>Python, C++, Java, JavaScript</p>
+      </div>
+
+      <div class="p-6 bg-gray-800 rounded-xl shadow-lg">
+        <h3 class="text-xl font-semibold mb-2">Web Development</h3>
+        <p>HTML, CSS, Tailwind, React, Node.js</p>
+      </div>
+
+      <div class="p-6 bg-gray-800 rounded-xl shadow-lg">
+        <h3 class="text-xl font-semibold mb-2">Core CS</h3>
+        <p>Data Structures, Algorithms, DBMS, OS, CN</p>
+      </div>
+
+      <div class="p-6 bg-gray-800 rounded-xl shadow-lg">
+        <h3 class="text-xl font-semibold mb-2">Tools</h3>
+        <p>Git, GitHub, Docker, VS Code</p>
+      </div>
+
+      <div class="p-6 bg-gray-800 rounded-xl shadow-lg">
+        <h3 class="text-xl font-semibold mb-2">AI & Tech</h3>
+        <p>Machine Learning, APIs, Automation</p>
+      </div>
+
+      <div class="p-6 bg-gray-800 rounded-xl shadow-lg">
+        <h3 class="text-xl font-semibold mb-2">Soft Skills</h3>
+        <p>Problem Solving, Communication, Leadership</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="py-16 px-6 bg-gray-800 text-center">
+    <h2 class="text-3xl font-bold mb-6">Education</h2>
+    <p class="text-lg">
+      B.Tech in Computer Science Engineering <br>
+      Manav Rachna International Institute of Research and Studies
+    </p>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-16 px-6 text-center">
+    <h2 class="text-3xl font-bold mb-6">Contact</h2>
+    <p>Email: umashankersingh05@gmail.com</p>
+    <p>Phone: **********</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
